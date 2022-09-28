@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+div.parent {
+  background-color: rgb(218 131 172 / 45%);
+  width: 600px;
+  padding: 10px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form {
+  background-color: #dd8eb28a;
+
+  margin: 10px auto;
+  width: 90%;
+  height: 15%;
+  border-radius: 30px;
+}
+form input {
+  font-size: 25px;
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+  border: 5px solid #b13984b8;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  background-color: #cb2f77bb;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  width: 20%;
+  height: 70%;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: 2px solid #cb2f77bb;
+}
+
+div.child {
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.child ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+div.child ul li {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #cb2f77bb;
+  padding: 10px;
+  width: 70%;
+  display: inline-flex;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.child ul span {
+  background-color: #cb2f77bb;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  width: 10%;
+  height: 40%;
+  border-radius: 10px;
+  margin-left: 30px;
+  border: 2px solid #da7ba7bb;
+}
